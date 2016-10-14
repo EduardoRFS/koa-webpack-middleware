@@ -18,9 +18,7 @@
   ],
   "scripts": {
     "lint": "standard | snazzy",
-    "test": "npm run lint",
-    "build": "npm run lint && babel -d lib/ middleware/",
-    "prepublish": "npm run build"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -52,7 +50,7 @@
     ]
   },
   "dependencies": {
-    "webpack-dev-middleware": "1.6.1",
+    "webpack-dev-middleware": "1.7.0",
     "webpack-hot-middleware": "2.12.1"
   }
 }
